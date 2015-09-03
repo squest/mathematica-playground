@@ -1,0 +1,344 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     14879,        335]
+NotebookOptionsPosition[     14378,        312]
+NotebookOutlinePosition[     14755,        329]
+CellTagsIndexPosition[     14712,        326]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"europes", "=", 
+  RowBox[{"CountryData", "[", "\"\<Europe\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.6503065796655617`*^9, 3.650306609837606*^9}, {
+  3.650306831760882*^9, 3.6503068340637836`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"\"Albania\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Albania\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Albania\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Andorra\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Andorra\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Andorra\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Austria\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Austria\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Austria\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Belarus\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Belarus\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Belarus\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Belgium\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Belgium\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Belgium\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Bosnia and Herzegovina\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"BosniaHerzegovina\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"BosniaHerzegovina\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Bulgaria\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Bulgaria\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Bulgaria\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Croatia\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Croatia\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Croatia\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Cyprus\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Cyprus\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Cyprus\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Czech Republic\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"CzechRepublic\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"CzechRepublic\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Denmark\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Denmark\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Denmark\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Estonia\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Estonia\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Estonia\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Faroe Islands\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"FaroeIslands\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"FaroeIslands\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Finland\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Finland\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Finland\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"France\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"France\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"France\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Germany\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Germany\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Germany\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Gibraltar\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Gibraltar\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Gibraltar\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Greece\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Greece\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Greece\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Guernsey\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Guernsey\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Guernsey\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Hungary\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Hungary\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Hungary\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Iceland\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Iceland\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Iceland\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Ireland\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Ireland\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Ireland\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Isle of Man\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"IsleOfMan\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"IsleOfMan\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Italy\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Italy\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Italy\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Jersey\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Jersey\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Jersey\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Kosovo\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Kosovo\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Kosovo\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Latvia\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Latvia\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Latvia\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Liechtenstein\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Liechtenstein\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Liechtenstein\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Lithuania\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Lithuania\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Lithuania\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Luxembourg\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Luxembourg\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Luxembourg\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Macedonia\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Macedonia\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Macedonia\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Malta\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Malta\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Malta\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Moldova\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Moldova\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Moldova\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Monaco\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Monaco\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Monaco\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Montenegro\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Montenegro\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Montenegro\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Netherlands\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Netherlands\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Netherlands\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Norway\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Norway\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Norway\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Poland\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Poland\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Poland\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Portugal\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Portugal\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Portugal\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Romania\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Romania\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Romania\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"San Marino\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"SanMarino\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"SanMarino\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Serbia\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Serbia\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Serbia\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Slovakia\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Slovakia\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Slovakia\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Slovenia\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Slovenia\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Slovenia\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Spain\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Spain\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Spain\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Svalbard\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Svalbard\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Svalbard\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Sweden\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Sweden\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Sweden\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Switzerland\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Switzerland\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Switzerland\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Ukraine\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Ukraine\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Ukraine\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"United Kingdom\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"UnitedKingdom\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"UnitedKingdom\\\"]\"","\"country\""},
+    "Entity"], ",", 
+   TemplateBox[{"\"Vatican City\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"VaticanCity\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"VaticanCity\\\"]\"","\"country\""},
+    "Entity"]}], "}"}]], "Output",
+ CellChangeTimes->{{3.6503068167311077`*^9, 3.650306835265435*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"europesPopGDP", " ", "=", " ", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Block", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"tmp", " ", "=", " ", "#"}], "}"}], ",", 
+        RowBox[{"Map", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"CountryData", "[", 
+            RowBox[{"tmp", ",", "#"}], "]"}], "&"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"\"\<Population\>\"", ",", "\"\<GDPPerCapita\>\""}], 
+           "}"}]}], "]"}]}], "]"}], "&"}], ",", "europes"}], "]"}]}], " ", 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"ListPlot", "[", "europesPopGDP", "]"}]}], "Input",
+ CellChangeTimes->{{3.6503068392591867`*^9, 3.650307114161179*^9}, {
+  3.650307173803145*^9, 3.650307308297814*^9}, {3.6503073415655746`*^9, 
+  3.650307830967424*^9}, {3.650308355359742*^9, 3.6503083755551167`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`],
+      AbsoluteThickness[1.6], PointBox[CompressedData["
+1:eJxTTMoPSmViYGAwBGIQDQQN7Cc9HO2TShnm+m5wAAko3P3iMNt1n/uziqcg
+vsI/uQTHs680pvWYvwDxE37zJzkuCbR1cwvbAeIvaFib4ljyw9ZWz/45iN9Q
+kufjeEA8yGEp52Ywf+fNaMfF5ro5N9bsBPEdulYHOEYtnFU2a945sH2NMw0d
+85dZ6+4+fw+s3sc2xZFj6Zyf/7uugPnslaGOs2YdYvzX9g6s/m6miWNGtUtA
+15MLYP4CV7C7GBjcwPodHuwKcfwTnflJReoliP/g7oQ+x/OqK/RzLoD984e9
+bLKjya9Ld8JXgvkMB3LvQPQvfwRWv/VBquO6hd+WtZrcB4sHsHyAyB+HhMfX
+V0mOWzY/sPurDXG/TY2IY8zkx0X+C8H2NfjdCXT86mqe5PHhLVj+A8dXiH7x
+h2D5ddq9jsp3Cw58uAu2j8Eh/jtE/uprMN0cZ+PIwOLguPjrXLB61zcOjjfX
+GG3/aXoWEj8WjxxmFGzkumTJ6AjiT3vh4Xjynd/2XxdPg+WvxSk4FrBwib12
+/w3md82yd9RL99nfZ7YR4p/9ko6XU7eyTzt+GcwvafByjKhZE6HCOAvijtN3
+HXS2v56fcpETbL5LqLLjamOzTkeHfSB5AxP2AsctCWH783eD/Xvgmkaw45Su
+Q8+KVcD+aDjo0eR4wvtQbgU/2D0KetkpjiYlz1/EuV4Dm7/Ft8SxW5t/E9P0
+Q2B+w8/7DnHdrvNm7YeEl2VItGPCHaF9y67tAvMDf4Q4Ml5iignQuQjmR7jY
+O0aritjdj7oFju8jPW2OrOncW+fPBodvQoxvkuPtLo8J8Rlg9zGs3Brr+GNm
+ev6Pq+/B6n8YtTpuTCsR/LxwHdj9QX59jhFSRlZ8zk8dAAQVF5o=
+      "]]}, {}}, {}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{},
+  PlotRange->{{0, 4.18732095*^7}, {0, 132194.02299330884`}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.650307701214281*^9, 3.650307732203335*^9}, {
+   3.650307764986082*^9, 3.650307802031188*^9}, 3.6503078324062757`*^9, {
+   3.650308368858822*^9, 3.650308376841604*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.6503071394224854`*^9, 3.650307171570457*^9}}]
+},
+WindowSize->{Full, Full},
+WindowMargins->{{279, Automatic}, {Automatic, 50}},
+Magnification->1.25,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 225, 4, 36, "Input"],
+Cell[808, 28, 10585, 207, 198, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11430, 240, 892, 22, 57, "Input"],
+Cell[12325, 264, 1940, 42, 324, "Output"]
+}, Open  ]],
+Cell[14280, 309, 94, 1, 35, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
