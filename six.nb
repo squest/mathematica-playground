@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     14879,        335]
-NotebookOptionsPosition[     14378,        312]
-NotebookOutlinePosition[     14755,        329]
-CellTagsIndexPosition[     14712,        326]
+NotebookDataLength[     18241,        447]
+NotebookOptionsPosition[     17459,        415]
+NotebookOutlinePosition[     17836,        432]
+CellTagsIndexPosition[     17793,        429]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -307,6 +307,109 @@ ev6Pq+/B6n8YtTpuTCsR/LxwHdj9QX59jhFSRlZ8zk8dAAQVF5o=
    3.650308368858822*^9, 3.650308376841604*^9}}]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"n", " ", 
+      RowBox[{"(", 
+       RowBox[{"n", "-", "1"}], ")"}]}], ")"}], 
+    RowBox[{"(", 
+     RowBox[{"x", 
+      RowBox[{"(", 
+       RowBox[{"x", "-", "1"}], ")"}]}], ")"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "n"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "n"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.651165066779849*^9, 3.6511651115784407`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Solve", "::", "disj"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Variable lists \[NoBreak]\\!\\({x, n}\\)\[NoBreak] and \
+\[NoBreak]\\!\\({x, n}\\)\[NoBreak] should be disjoint. \\!\\(\\*ButtonBox[\\\
+\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/Solve\\\", ButtonNote -> \\\"Solve::disj\\\"]\\)\"\
+\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6511651129748087`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"x", "-", "a"}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{"x", "-", "a", "-", "1"}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"x", "-", "1"}], ")"}], "x"}], ")"}]}], " ", "\[Equal]", " ", 
+    
+    RowBox[{"1", "/", "2"}]}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "a"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.651165149536005*^9, 3.651165160073447*^9}, {
+  3.651165198944936*^9, 3.65116528841774*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Solve", "::", "svars"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Equations may not give solutions for all \\\"solve\\\" \
+variables. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\
+\\\", ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/Solve/svars\\\", \
+ButtonNote -> \\\"Solve::svars\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.651165161677795*^9, {3.6511652594929447`*^9, 3.6511652891159143`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", "\[Rule]", 
+     RowBox[{
+      FractionBox["1", "2"], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        RowBox[{"2", " ", "x"}], "-", 
+        SqrtBox[
+         RowBox[{"1", "-", 
+          RowBox[{"2", " ", "x"}], "+", 
+          RowBox[{"2", " ", 
+           SuperscriptBox["x", "2"]}]}]]}], ")"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"a", "\[Rule]", 
+     RowBox[{
+      FractionBox["1", "2"], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        RowBox[{"2", " ", "x"}], "+", 
+        SqrtBox[
+         RowBox[{"1", "-", 
+          RowBox[{"2", " ", "x"}], "+", 
+          RowBox[{"2", " ", 
+           SuperscriptBox["x", "2"]}]}]]}], ")"}]}]}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.651165161682369*^9, {3.6511652595011787`*^9, 3.651165289121244*^9}}]
+}, Open  ]],
+
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.6503071394224854`*^9, 3.650307171570457*^9}}]
 },
@@ -334,9 +437,18 @@ Cell[808, 28, 10585, 207, 198, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[11430, 240, 892, 22, 57, "Input"],
-Cell[12325, 264, 1940, 42, 324, "Output"]
+Cell[12325, 264, 1940, 42, 290, "Output"]
 }, Open  ]],
-Cell[14280, 309, 94, 1, 35, "Input"]
+Cell[CellGroupData[{
+Cell[14302, 311, 483, 16, 35, "Input"],
+Cell[14788, 329, 475, 10, 29, "Message"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15300, 344, 622, 20, 35, InheritFromParent],
+Cell[15925, 366, 495, 10, 29, "Message"],
+Cell[16423, 378, 923, 31, 58, "Output"]
+}, Open  ]],
+Cell[17361, 412, 94, 1, 35, "Input"]
 }
 ]
 *)
