@@ -1,0 +1,325 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9289,        316]
+NotebookOptionsPosition[      7514,        247]
+NotebookOutlinePosition[      7888,        264]
+CellTagsIndexPosition[      7845,        261]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.657100668573537*^9, 3.657100670523066*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<Facebook\>\"", ",", "\"\<sabdaps\>\""}], "}"}], ",", 
+   "\"\<Friends\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6571006784812603`*^9, 3.6571007080891047`*^9}, {
+  3.6571007618518353`*^9, 3.657100764810214*^9}, {3.657100796975748*^9, 
+  3.657100891908895*^9}, {3.657100927051971*^9, 3.6571009864547167`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}]], "Output",
+ CellChangeTimes->{{3.657100749868947*^9, 3.657100766011722*^9}, {
+   3.657100799265203*^9, 3.657100859554288*^9}, 3.6571009539321547`*^9, 
+   3.6571009872337847`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\"\<Twitter\>\"", ",", "\"\<Followers\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.657101083541635*^9, 3.6571011031602163`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\<\"Twitter\"\>", ",", "\<\"Followers\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.657101098475451*^9, {3.6571011757487*^9, 3.657101180861796*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\"\<Facebook\>\"", ",", "\"\<Friends\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.657101219952018*^9, 3.657101230228409*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{3.657101230943324*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\"\<Facebook\>\"", ",", "\"\<UserData\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.657101245535062*^9, 3.65710125744016*^9}}],
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\<\"Facebook\"\>", ",", "\<\"UserData\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{3.657101258432322*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.657101274831259*^9, 3.65710127638518*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Facebook\"\>", ",", "\<\"GooglePlus\"\>", 
+   ",", "\<\"Instagram\"\>", ",", "\<\"LinkedIn\"\>", 
+   ",", "\<\"Twitter\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.65710127693368*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", "\"\<Facebook\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6571012816623087`*^9, 3.6571013097062674`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  ButtonBox[
+   PaneSelectorBox[{False->"\<\"http://www.facebook.com\"\>", True->
+    StyleBox["\<\"http://www.facebook.com\"\>", "HyperlinkActive"]}, Dynamic[
+     CurrentValue["MouseOver"]],
+    BaseStyle->{"Hyperlink"},
+    FrameMargins->0,
+    ImageSize->Automatic],
+   BaseStyle->"Hyperlink",
+   ButtonData->{
+     URL["http://www.facebook.com"], None},
+   ButtonNote->"http://www.facebook.com"],
+  Annotation[#, "http://www.facebook.com", "Hyperlink"]& ]], "Output",
+ CellChangeTimes->{{3.657101287776939*^9, 3.657101310145254*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", "\"\<Twitter\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.657101319916933*^9, 3.6571013258410673`*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  ButtonBox[
+   PaneSelectorBox[{False->"\<\"https://www.twitter.com\"\>", True->
+    StyleBox["\<\"https://www.twitter.com\"\>", "HyperlinkActive"]}, Dynamic[
+     CurrentValue["MouseOver"]],
+    BaseStyle->{"Hyperlink"},
+    FrameMargins->0,
+    ImageSize->Automatic],
+   BaseStyle->"Hyperlink",
+   ButtonData->{
+     URL["https://www.twitter.com"], None},
+   ButtonNote->"https://www.twitter.com"],
+  Annotation[#, "https://www.twitter.com", "Hyperlink"]& ]], "Output",
+ CellChangeTimes->{3.657101326365666*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SocialMediaData", "[", 
+   RowBox[{"\"\<Facebook\>\"", ",", "\"\<Friends\>\""}], "]"}], "//", 
+  "Short"}]], "Input",
+ CellChangeTimes->{{3.6571013460801163`*^9, 3.65710134608174*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"{", "}"}],
+  Short]], "Output",
+ CellChangeTimes->{3.657101347746031*^9, 3.6571015717158747`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\"\<Twitter\>\"", ",", "\"\<Followers\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.657101574739131*^9, 3.657101582701294*^9}}],
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\<\"Twitter\"\>", ",", "\<\"Followers\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{3.657101583288396*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<Twitter\>\"", ",", "\"\<sabdaps\>\""}], "}"}], ",", 
+   "\"\<Followers\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6571015871110163`*^9, 3.657101621435535*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SocialMediaData", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<Twitter\>\"", ",", "\"\<sabdaps\>\""}], "}"}], ",", 
+    "\"\<Followers\>\""}], "]"}], "Click", " ", "for", " ", "copyable", " ", 
+  "input"}], "\n", 
+ RowBox[{
+  RowBox[{"Click", " ", "for", " ", "copyable", " ", "input"}], 
+  "\n"}], "\[IndentingNewLine]", 
+ RowBox[{"ClearSystemCache", "[", "]"}]}], "Input",
+ CellChangeTimes->{{3.657101668477624*^9, 3.657101680391259*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Click", " ", "copyable", " ", "for", " ", "input", " ", 
+  RowBox[{"SocialMediaData", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\<\"Twitter\"\>", ",", "\<\"sabdaps\"\>"}], "}"}], 
+    ",", "\<\"Followers\"\>"}], "]"}]}]], "Output",
+ CellChangeTimes->{3.657101682812941*^9}],
+
+Cell[BoxData[
+ RowBox[{"Click", " ", "copyable", " ", "for", " ", "input"}]], "Output",
+ CellChangeTimes->{3.6571016828147497`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\"\<Facebook\>\"", ",", "\"\<Friends\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.657101688210479*^9, 3.657101700097674*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{{3.657101728790781*^9, 3.657101734141745*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\"\<Twitter\>\"", ",", "\"\<Followers\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.65710174474778*^9, 3.65710175262542*^9}}],
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\<\"Twitter\"\>", ",", "\<\"Followers\"\>"}], "]"}]], "Output",
+ CellChangeTimes->{3.6571017768961973`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SocialMediaData", "[", 
+  RowBox[{"\"\<Facebook\>\"", ",", "\"\<Friends\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6571018279381247`*^9, 3.6571018396091757`*^9}, {
+  3.657101881789866*^9, 3.65710188379815*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{
+  3.657101840090684*^9, {3.657101876337459*^9, 3.657101884404649*^9}}]
+}, Open  ]]
+},
+WindowSize->{Full, Full},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+Magnification->1.25,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 92, 1, 35, "Input"],
+Cell[CellGroupData[{
+Cell[675, 25, 405, 8, 36, "Input"],
+Cell[1083, 35, 248, 4, 36, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1368, 44, 189, 3, 35, "Input"],
+Cell[1560, 49, 211, 4, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1808, 58, 186, 3, 35, "Input"],
+Cell[1997, 63, 87, 2, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2121, 70, 186, 3, 35, "Input"],
+Cell[2310, 75, 164, 3, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2511, 83, 128, 2, 35, "Input"],
+Cell[2642, 87, 229, 5, 36, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2908, 97, 153, 2, 35, "Input"],
+Cell[3064, 101, 561, 14, 37, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3662, 120, 150, 2, 35, "Input"],
+Cell[3815, 124, 537, 14, 37, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4389, 143, 219, 5, 35, "Input"],
+Cell[4611, 150, 131, 4, 49, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4779, 159, 187, 3, 35, "Input"],
+Cell[4969, 164, 164, 3, 35, "Output"]
+}, Open  ]],
+Cell[5148, 170, 256, 6, 36, "Input"],
+Cell[CellGroupData[{
+Cell[5429, 180, 485, 12, 99, InheritFromParent],
+Cell[5917, 194, 305, 7, 36, "Output"],
+Cell[6225, 203, 131, 2, 36, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6393, 210, 186, 3, 35, "Input"],
+Cell[6582, 215, 111, 2, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6730, 222, 185, 3, 35, "Input"],
+Cell[6918, 227, 166, 3, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7121, 235, 238, 4, 35, "Input"],
+Cell[7362, 241, 136, 3, 69, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
